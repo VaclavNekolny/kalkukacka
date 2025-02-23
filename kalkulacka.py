@@ -10,3 +10,6 @@ class Kalkulacka:
 
     def odecti(self, a,b):
         return a-b
+
+    def vynasob(self, a,b):
+        return a*b
