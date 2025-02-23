@@ -13,3 +13,8 @@ class Kalkulacka:
 
     def vynasob(self, a,b):
         return a*b
+
+    def vydel(self, a, b):
+        if b == 0:
+            return "Nelze delit nulou!"
+        return a/b

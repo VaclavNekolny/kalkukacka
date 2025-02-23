@@ -16,3 +16,8 @@ class TestKalkulacka(TestCase):
         kalkulacka = Kalkulacka()
         self.assertEqual(kalkulacka.vynasob(5, 3), 15)
         self.assertEqual(kalkulacka.vynasob(5, 3), 8)
+
+    def test_vydel(self):
+        kalkulacka = Kalkulacka()
+        self.assertEqual(kalkulacka.vydel(5, 5), 1)
+        self.assertEqual(kalkulacka.vynasob(5, 0), 0)
